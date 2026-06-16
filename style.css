@@ -3,23 +3,24 @@
     right: 25px;
     bottom: 25px;
 
-    width: 60px;
-    height: 60px;
+    width: 75px;
+    height: 75px;
 
     z-index: 9999;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     transition: 0.3s ease;
 }
 
 .whatsapp-fixo img{
-    width: 60px;
-    height: 60px;
-    object-fit: cover;
-    border-radius: 50%;
-
-    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .whatsapp-fixo:hover{
-    transform: scale(1.08);
+    transform: scale(1.1);
 }
